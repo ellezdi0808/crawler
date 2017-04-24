@@ -1,5 +1,4 @@
 import requests,os
-from urllib.request import urlretrieve
 
 class getCarName():
     """
