@@ -6,7 +6,7 @@ class getCarName():
     author：alisa
     初始化部分，是公共变量
     """
-    def __init__(self,appkey="d9ddbcf6adad0002",getNum=100):
+    def __init__(self,appkey="你获取到的appkey",getNum=100):
         self.appkey = appkey
         self.getNum = getNum
         self.url = 'http://api.jisuapi.com/car/brand'
